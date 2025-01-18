@@ -412,8 +412,128 @@ menu-social-icon:focus {
         opacity: 3;
     }
 
+/* Hero ================================================================== */
 
+.hero {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
 
+@media screen and (min-width: 768px) {
+.hero {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+.hero {
+    padding-bottom: 50px;
+}
+}
+
+.hero-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+@media screen and (min-width: 768px) {
+.hero-wrap {
+    flex-direction: row;
+    gap: 11px;
+    margin-bottom: 40px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-wrap {
+        gap: 407px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .hero-left {
+        max-width: 572px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+.hero-left {
+    max-width: 597px;
+}
+}
+
+.hero-right {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-right {
+        flex-direction: column;
+        margin: 0;
+    }
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+.hero-title {
+    font-size: 70px;
+    line-height: 0.85;
+}
+}
+@media screen and (min-width: 1280px) {
+.hero-title {
+    font-size: 72px;
+    line-height: 0.875;
+}
+}
+
+.hero-span {
+    color: #3350e9;
+}
+
+.hero-txt {
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: #0c0c0cb3;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-txt {
+        max-width: 480px;
+    }
+}
+
+.hero-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-scroll {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+@media screen and (min-width: 768px) {
+.hero-scroll {
+    font-size: 19px;
+}
+}
 
 
 
