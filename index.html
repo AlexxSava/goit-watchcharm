@@ -813,7 +813,183 @@
           </ul>
         </div>
       </section>
+
+      <!-- contact us =======================================================-->
+
+      <section class="contact-us" id="contact-us">
+        <div class="container">
+          <h2 class="contact-us-title">Contact Us</h2>
+          <div class="contact-us-wrap">
+            <div class="contact-us-box">
+              <p class="contact-us-txt">
+                Please use the form below to contact us. Enter your name, email,
+                phone, and message and we'll get back to you shortly.
+              </p>
+              <form class="contact-us-form">
+                <div class="contact-us-group">
+                  <label class="contact-us-label">
+                    <input
+                      class="contact-us-input"
+                      type="text"
+                      name="user-name"
+                      placeholder="Name"
+                    />
+                  </label>
+                </div>
+                <div class="contact-us-group">
+                  <label class="contact-us-label">
+                    <input
+                      class="contact-us-input"
+                      type="text"
+                      name="user-email"
+                      placeholder="Email"
+                      pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                    />
+                  </label>
+                </div>
+                <div class="contact-us-group">
+                  <label class="contact-us-label">
+                    <input
+                      class="contact-us-input"
+                      type="text"
+                      name="user-phone"
+                      placeholder="+380"
+                      pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                    />
+                  </label>
+                </div>
+                <div class="contact-us-form-comment">
+                  <label class="contact-us-label">
+                    <textarea
+                      name="user-comment"
+                      class="contact-us-input"
+                      placeholder="Comment"
+                      rows="3"
+                    ></textarea>
+                  </label>
+                </div>
+                <button class="contact-us-btn" type="submit">Send</button>
+              </form>
+            </div>
+            <picture>
+              <source
+                srcset="
+                  /images/contact-us-pc@1x.webp 1x,
+                  /images/contact-us-pc@2x.webp 2x
+                "
+                media="(min-width: 1280px)"
+              />
+              <source
+                srcset="
+                  /images/contact-us-tab@1x.webp 1x,
+                  /images/contact-us-tab@2x.webp 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  /images/contact-us-mob@1x.webp 1x,
+                  /images/contact-us-mob@2x.webp 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img
+                class="contact-us-img"
+                src="/images/contact-us-mob@1x.webp"
+                alt="premium watch"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <!-- footer ================================================================ -->
+
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="footer-wrap">
+          <div class="footer-top">
+            <div class="footer-left">
+              <a href="./index.html" class="footer-logo">watchcharm</a>
+              <ul class="nav-icon-list">
+                <li class="nav-icon-item">
+                  <a href="http://facebook.com" class="nav-icon-link">
+                    <svg class="nav-icon" width="20" height="20">
+                      <use href="./images/icons.svg#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="nav-icon-item">
+                  <a href="http://instargam.com" class="nav-icon-link">
+                    <svg class="nav-icon" width="20" height="20">
+                      <use href="./images/icons.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="nav-icon-item">
+                  <a href="http://youtube.com" class="nav-icon-link">
+                    <svg class="nav-icon" width="20" height="20">
+                      <use href="./images/icons.svg#youtube"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <a href="+380684439426" class="address-tel">+380 (68) 443-94-26</a>
+            <p class="footer-txt">
+              Have the time of your life with our watches: where high-class
+              craftsmanship meets impeccable design
+            </p>
+          </div>
+
+          <div class="footer-bottom">
+            <ul class="footer-bottom-list">
+              <li class="footer-bottom-item">
+                <a href="" class="footer-bottom-link">Home</a>
+              </li>
+              <li class="footer-bottom-item">
+                <a href="" class="footer-bottom-link">About Us</a>
+              </li>
+              <li class="footer-bottom-item">
+                <a href="" class="footer-bottom-link">Catalog</a>
+              </li>
+              <li class="footer-bottom-item">
+                <a href="" class="footer-bottom-link">Sale</a>
+              </li>
+              <li class="footer-bottom-item">
+                <a href="" class="footer-bottom-link">Reviews</a>
+              </li>
+              <li class="footer-bottom-item">
+                <a href="" class="footer-bottom-link">Contact Us</a>
+              </li>
+            </ul>
+            <address class="address-txt">
+              <a
+                class="footer-map-txt"
+                href="https://maps.app.goo.gl/7jXxCKzrqZKWoCKm8"
+                target="_blank"
+              >
+                1678 S. Pioneer Road Salt Lake City UT 84104
+              </a>
+            </address>
+          </div>
+          <div class="footer-end">
+            <p class="footer-end-txt">
+              ©2023 The Watch Spot. All rights reserved.
+            </p>
+            <ul class="footer-end-list">
+              <li class="footer-end-item">
+                <a href="#" class="footer-end-link">Terms of Service</a>
+              </li>
+              <li class="footer-end-item">
+                <a href="#" class="footer-end-link">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="./js/modal.js"></script>
   </body>
 </html>
