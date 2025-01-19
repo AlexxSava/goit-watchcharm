@@ -632,6 +632,8 @@ menu-social-icon:focus {
 }
 
 .about-link {
+    display: flex;
+    max-width: 160px;
     font-size: 14px;
     line-height: 1.28;
     text-align: center;
@@ -821,7 +823,10 @@ menu-social-icon:focus {
     padding: 50px 0;
 }
 }
+.advert-box {
 
+
+}
 .advert-wrap {
     padding: 60px 28px;
     border-radius: 30px;
@@ -906,6 +911,8 @@ menu-social-icon:focus {
 }
 
 .advert-link {
+    display: flex;
+    max-width: 160px;
     min-width: 160px;
     font-weight: 500;
     font-size: 14px;
@@ -923,7 +930,238 @@ menu-social-icon:focus {
     color: #0c0c0c;
 }
 
+/* sale ======================================================================== */
 
+.sale {
+    padding: 30px 0;
+}
+@media screen and (min-width: 768px) {
+.sale {
+    padding: 40px 0;
+}
+}
+@media screen and (min-width: 1280px) {
+.sale {
+    padding: 50px 0;
+    }
+}
+
+.sale-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+.sale-title {
+    font-size: 48px;
+    line-height: 0.91;
+    margin-bottom: 40px;
+}
+}
+
+.sale-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+.sale-wrap {
+    display: flex;
+    gap: 40px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+.sale-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+}
+
+.sale-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+.sale-left {
+   flex-direction: row;
+}
+}
+
+.sale-wrap-img{
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    background-color: #f3f3f3;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+@media screen and (min-width: 768px) {
+.sale-wrap-img {
+    padding: 80px 112px;
+    border-radius: 50px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+.sale-wrap-img {
+    padding: 80px 50px;
+}
+}
+
+.sale-list {
+    display: flex;
+    gap: 5px;
+}
+
+@media screen and (min-width: 768px) {
+.sale-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+}
+
+.sale-item {
+    padding: 13px 14px;
+    border: 1px solid #0c0c0c0d;
+    border-radius: 16px;
+    background-color: #f3f3f3;
+}
+
+@media screen and (min-width: 768px) {
+.sale-item {
+    padding: 16px 18px;
+    border-radius: 20px;
+}
+}
+
+.sale-right {
+    padding: 48px 28px;
+    border-radius: 30px;
+    background-color: #3350e9;
+    color: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+.sale-right {
+    border-radius: 50px;
+    padding: 60px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+.sale-right {
+    max-width: 530px;
+}
+}
+
+.sale-subtitle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+.sale-subtitle {
+    max-width: 440px;
+    font-size: 32px;
+    line-height: 1.12;
+}
+}
+
+.sale-txt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: #fbfbfb80;
+    margin-bottom: 20px;
+}
+
+.sale-price {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.sale-price-txt {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    padding: 8px 12px;
+    background-color: #fbfbfb1a;
+    border-radius: 8px;
+}
+
+.sale-price-old-txt {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: #fbfbfb80;
+}
+
+.sale-main-txt {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: #fbfbfbb3;
+    margin-bottom: 28px;
+}
+
+@media screen and (min-width: 768px) {
+.sale-main-txt {
+    max-width: 572px;
+    line-height: 1.25;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+}
+
+.sale-descr {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+@media screen and (min-width: 768px) {
+.sale-descr {
+    max-width: 398px;
+    font-size: 14px;
+    line-height: 1.28;
+}
+}
+
+.sale-descr-txt {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+.sale-descr-txt {
+    font-size: 14px;
+    line-height: 1.28;
+}
+}
 
 
 
